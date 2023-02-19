@@ -19,3 +19,7 @@ hitesh.getFirstName();
 var sam = new User("Sam", 1);
 // console.log(sam);
 sam.getCourseCount();
+
+if (sam.hasOwnProperty("firstName")) {
+  sam.getCourseCount();
+}
